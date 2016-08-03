@@ -24,4 +24,15 @@ Humanoid.show_abilites
 Miner.show_abilites
 
 puts "\n\nComprando robots..."
+flyer_robot_1.buy!(person_1)
+humanoid_robot_1.buy!(person_2)
 miner_robot_1.buy!(person_1)
+flyer_robot_2.buy!(person_1)
+
+puts "\n\nPropiedades de los robots:"
+flyer_robot_1.show_distance(100)
+humanoid_robot_1.show_distance(100)
+miner_robot_1.show_distance(100)
+
+puts "\n\nReporte:"
+Robot.show_report

@@ -1,6 +1,9 @@
-require_relative 'robot.rb'
-require_relative '../person.rb'
+require_relative 'robot'
+require_relative '../sources/diesel'
+
 class Miner<Robot
+
+  include Diesel 
 
   def self.show_abilites
     puts "Minero: Excavar"
